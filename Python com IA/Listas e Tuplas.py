@@ -140,15 +140,64 @@
 #     print('Todes tarefas foram feitas')
 
 
+# tarefas = ['lavar','cozinhar','varrer','limpar','corre']
+# # tarefas.append('lutar')
+# print(tarefas)
+# for i in tarefas:
+#     if len(i) == 'sim':
+#         tarefas.remove[0]
+#         print('Vamos pro proximo')
 
 
 
 
 
-tarefas = ['lavar','cozinhar','varrer','limpar','corre']
-# tarefas.append('lutar')
-print(tarefas)
-for i in tarefas:
-    if len(i) == 'sim':
-        tarefas.remove[0]
-        print('Vamos pro proximo')
+
+
+# string = ['sol','lua','estrela','galaxia']
+# string.append('universo')
+# string.append('nucleo')
+# string.append('espaço')
+# string.append('saturno')
+# string.append('Buraco Negro')
+# print(string)
+
+
+# lista = [3,1,4,1,5,9,2,6,5,3,5]
+# lista.pop(10)
+# lista.pop(9)
+# lista.pop(8)
+# lista.pop(3)
+# print(lista)
+# tamanho = len(lista)
+# print(f'o tamanho da lista ficou {tamanho} para o restante dos Numeros aparecidos')
+
+
+
+
+# lista = [1,2,3,4,5,6,7,8,9,10]
+# for i in lista:
+#     soma = 1
+#     if i * soma:
+#         print(i)
+
+
+
+# lista = ['maça','banana','cereja']
+# lista.insert(1,'maça_0')
+# lista.insert(3,'banana_1')
+# lista.insert(5,'cereja_2')
+# print(lista)
+
+
+
+# lista=['banana','maça','pera']
+# for i in lista:
+#     maiusculo = i.upper()
+#     if i  == 'A':
+#         lista.remove('A')
+#         print(maiusculo)
+
+
+
+
