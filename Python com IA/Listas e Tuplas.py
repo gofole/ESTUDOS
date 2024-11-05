@@ -113,3 +113,42 @@
 #     print('O 30 NAO ESTA NA LISTA!')
 
 
+# tarefas = ['lavar','cozinhar','varrer','limpar','corre']
+# tarefas.append('lutar')
+# print('Lavou?')
+# print('cozinhou?')
+# print('vareu?')
+# print('limpou?')
+# print('correu?')
+# soma = 0
+# for i in tarefas:
+#     i = input('Digite que sim ou nao para as tarefas ')
+#     if i == 'sim':
+#         soma+=1
+#     elif i == 'sim':
+#         soma+=1
+#     elif i == 'sim':
+#         soma+=1
+#     elif i == 'sim':
+#         soma +=1
+#     elif i == 'sim':
+#         soma +=1
+#     elif i == soma == soma:
+#         print('Esta faltando coisa ainda!')
+# else:
+#     soma == 5
+#     print('Todes tarefas foram feitas')
+
+
+
+
+
+
+
+tarefas = ['lavar','cozinhar','varrer','limpar','corre']
+# tarefas.append('lutar')
+print(tarefas)
+for i in tarefas:
+    if len(i) == 'sim':
+        tarefas.remove[0]
+        print('Vamos pro proximo')
