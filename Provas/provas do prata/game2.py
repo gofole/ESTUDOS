@@ -2,16 +2,12 @@ import random
 opcoes =["pedra","papel","tesoura"]
 escolha = random.choice(opcoes)
 while True:
-        jogador = input("Escolha pedra, papel ou tesoura (ou 'sair' para encerrar o jogo): ")
+        jogador = input("Escolha pedra, papel ou tesoura (ou 'sair' para encerrar o game): ")
         
         if jogador == "sair":
-            print("O jogo foi encerrado.")
+            print("O game foi encerrado.")
             break
-        
-        if jogador not in opcoes:
-            print("Escolha inválida. Tente novamente.")
-            continue
-        
+                
         computador = random.choice(opcoes)
         print(f"O computador escolheu: {computador}")               #AI E FODA EM PRATA!!!NUNCA MAIS! 14HORAS PRA FAZER ISSO
 
@@ -21,3 +17,37 @@ while True:
             print("Você ganhou!")
         else:
             print("Você perdeu!")
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        # if jogador not in opcoes:
+        #     print("Escolha inválida. Tente novamente.")
+        #     continue
