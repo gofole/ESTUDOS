@@ -7,6 +7,11 @@ while True:
         if jogador == "sair":
             print("O game foi encerrado.")
             break
+        
+        
+        if jogador not in opcoes:
+            print("Escolha inválida. Tente novamente.")
+            continue
                 
         computador = random.choice(opcoes)
         print(f"O computador escolheu: {computador}")               #AI E FODA EM PRATA!!!NUNCA MAIS! 14HORAS PRA FAZER ISSO
@@ -46,8 +51,3 @@ while True:
         
         
         
-        
-        
-        # if jogador not in opcoes:
-        #     print("Escolha inválida. Tente novamente.")
-        #     continue
