@@ -462,3 +462,135 @@
 #     maior = preço3
 
 # print(f' Maior Numero Foi {maior}')
+
+
+# nome = input('Digite Seu Nome')
+# if nome ==  'Pedro':
+#     print('bom dia Pedro')
+
+
+# idade = int(input('Digite sua idade'))
+# if idade >= 18:
+#     print('voce e maior de 18')
+# else:
+#     print('Voce nao e de maior')
+
+# condicao_1 = 10 == 10
+# condicao_2 = 15 != 15
+
+# print(condicao_2)
+
+# num1 = int(input('Digite um Numero'))
+# num2 = num1<=20 and num1 >=10
+# print(num2)
+
+# idade_1 = int(input('Digite sua idade'))
+
+# entar_entre_18_e_65 =  idade_1>= 18 and idade_1 <= 65
+# maior_que_21 = idade_1 > 21
+# resultado = entar_entre_18_e_65 and maior_que_21
+# print(resultado)
+
+
+# idade = int(input('Digite sua idade'))
+# resul =  idade <18 or idade < 65
+# print(resul)
+
+
+# frase = 'Python'
+# print( 'P' in frase)
+
+# nome = input('Digite Seu Email')
+# print('@' in nome)
+
+
+
+# num1 = int(input('Digite primeiro Numero Inteiro'))
+# num2 = int(input('Digite o Segundo Numero Inteiro'))
+# resultado = num1 <= num2
+# print(resultado)
+
+
+# horas = float(input('Digite O horario que estar'))
+# resultado = horas < 12 and horas > 18
+# print(resultado)
+
+
+# numero = int(input('Digite um Numero'))
+# e_posisitov = numero >= 0
+# e_negativo = numero < 0
+# estar_entre_20_e_30 = numero > 20 and numero < 30
+
+# resultado1 = e_posisitov,e_negativo
+# resultado2 = estar_entre_20_e_30
+# print(resultado1,resultado2)
+
+# palavra = 'o'
+# frase = 'ola bom dia estou chegando em casa!!!'
+# a_palavra_estar_na_frase= palavra in frase
+# print(a_palavra_estar_na_frase,frase)
+
+# nome = input('Digite Seu Nome')
+# verificar = nome in 'Maria'
+# if verificar ==  True:
+#     print('Ola Maria!')
+
+# nome_de_usuario= input('Digite O login')
+# senha= int(input('Digite a Senha usando apenas numeros'))
+# if nome_de_usuario == 'admin' and senha == 1234:
+#     print('Login Relizado com Sucesso')
+# else:
+#     print('Nome de suaruio ou Senha incorretos')
+
+
+
+# num1 = int(input('Digite o 1° numero'))
+# num2 = int(input('Digite o 2° numero'))
+# if num1 == num2:
+#     print('NUMEROS SAO IGUAIS')
+# else:
+#     print('numero sao diferentes')
+
+
+
+
+# idade = int(input('Digite Sua idade'))
+# if idade <= 11:
+#     print('Criança')
+# elif idade >= 12 and idade <=17:
+#     print('Adoslecente')
+# elif idade >=18 and idade <= 59:
+#     print('Adulto')
+# else:
+#     print('IDOSO')
+
+
+
+# print('Sera que Seu Numero e divisivel por 5   ')
+# numero =  int(input('Digite um Numero    '))
+# if numero % 5 == 0:
+#     print(f'{numero} (É) divisil por 5 é  {numero//5}  ')
+# else:
+#     print(f'{numero} numero digitado (NAO )e divisil por 5 e {numero//5}  ')
+
+
+
+# dia =  int(input('DIGITE O DIA DA SEMANA USANDO DE 1 A 7 EX: 1 = SEGUNDA'))
+# if dia == 1:
+#     print('Segunda-feira')
+# elif dia == 2:
+#     print('Terça-Feira')
+# elif dia == 3:
+#     print('Quarta-feira')
+# elif dia ==  4:
+#     print('Quinta-Feira')
+# elif dia == 5:
+#     print('Sextou beby')
+# elif dia == 6:
+#     print('Sabado')
+# else:
+#     print('Domingou')
+
+
+
+

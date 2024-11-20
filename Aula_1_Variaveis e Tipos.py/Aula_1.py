@@ -1,4 +1,4 @@
-🇬🇩# a = 5
+# a = 5
 # b = 3 
 
 # resultado =  a + b
@@ -157,3 +157,71 @@
 # print(f'Legal Sua cor Favorita é {cor} a minha tambem que coencidencia Legal!!')
 
 
+# nome = 'joao'
+# print(nome)
+# idade = 25
+# print(idade)
+# altura =1.75
+# print(altura)
+
+# a= 10
+# b = 20
+# soma = a+b
+# print(soma)
+
+
+# nome = input('Digite Seu nome')
+# print(f'Ola {nome} Bem vindo ao nosso Programa')
+
+# nome = input('Digite Seu Nome')
+# idade = int(input('Digite sua idade'))
+# print(f'OlA {nome} sua idade é {idade}')
+
+
+# num1 = int(input('Digite O primeiro numero'))
+# num2 = int(input('Digite o Segundo valor'))
+# print(f'A soma de  {num1} com {num2} é {num1+num2}')
+
+
+
+# nome = input('Diigte Seu Nome')
+# celular =int(input('Diigite Seu Numero de celular'))
+
+# print(F'Ola Senhor(a) {nome} Seu Numero de telefone é {celular}')
+
+
+
+# ano_de_nascimento = int(input('Digite o Ano que voce nasceu'))
+
+# print(f'Em 2024 voce tem {2024 - ano_de_nascimento}')
+
+
+
+# idade= int(input('Por favor Digite Sua Idade'))
+# print(f'ola Senhor(a) Voce esta com {idade}')
+
+
+# num1 = int(input('Digite O primeiro Numero'))
+# num2 = int(input('Digite o Segundo Numero'))
+# print(f'A soma total dos valores que Voce digitou sao {num1+num2}')
+
+
+
+# cor = input('Digite A sua cor preferida')
+
+# print(f'{cor} que Maneiro essa minha cor favorita tbm')
+
+
+# num1 = int(input('Digite Por favor Um numero'))
+# print(type(num1))
+
+
+# num1 = int(input('Digite Numero Inteiro'))
+# num2 = float(input('Digite Numero Quebrado'))
+# print(type(num1))
+# print(type(num2))
+
+
+# num1 = int(input('Digite um valor'))
+# dobro = num1*2
+# print(F' o Dobro do valor {num1} é {dobro}')
