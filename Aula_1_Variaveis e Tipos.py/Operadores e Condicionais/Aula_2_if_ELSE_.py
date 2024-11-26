@@ -594,3 +594,120 @@
 
 
 
+# num1 = int(input('Digite 1° NUMERO'))
+# num2 = int(input('Digite 2° NUMERO'))
+# num3 = int(input('Digite 3° NUMERO'))
+# maior_numero =  num1
+# maior_numero = num2
+# maior_numero = num3
+# if num1  > maior_numero:
+#     maior_numero = n
+
+
+# contador_de_sim = 0
+
+# print('Responda as pergunta com (sim) e (nao)')
+# pergunta =  input('1. Telefonou para a vitimia?')
+# if pergunta ==  'sim':
+#     contador_de_sim+=1
+# pergunta = input('2.esteve no local do crime ?')
+# if    pergunta == 'sim':
+#         contador_de_sim+=1
+# pergunta = input('3. mora perto da vitima?')
+# if  pergunta == 'sim':
+#       contador_de_sim+=1
+# pergunta = input('4.devia para a vitima?')
+# if   pergunta ==  'sim':
+#         contador_de_sim+=1
+# pergunta = input('ja trabalhou com a vitima?') 
+# if pergunta ==  'sim':
+#        contador_de_sim+=1
+
+# if contador_de_sim ==  2:
+#        print('VOCE E UMA PESSOA SUSPEITA')
+# elif contador_de_sim == 3 or contador_de_sim == 4:
+#        print('Voce e uma pessoa CUMPLICE')
+# elif contador_de_sim ==  5:
+#        print('PRENDANO ELE É O ASSASINO')
+# else:
+#         print('Inocente')
+
+
+# banana= 5
+# uva = 10
+# maça = 3
+# print('Qual valor das  Frutas ?')
+# print('banana: 5 reias')
+# print('maça: 3 reais')
+# print('uva: 10 reais')
+# comprar = input('Qual Produto voce deseja comprar?')
+# if  comprar == 'maça':
+#     print('Voce comprou o Produto mais barato da nossa loja')
+# elif comprar == 'uva':
+#     print('Voce compro a fruta mais cara!!!')
+# elif comprar == 'banana':
+#     print('Voce comprou a fruta com preço medio')
+
+
+# salario = float(input('Digite o valor do seu SALARIO'))
+# colaborador = input('Digite Seu Nome')
+# print('reajuste salario = ate 280,00 + 20%')
+# print('reajuste salario = ate 280,00,700.00 + 15%')
+# print('reajuste salario = ate 700,00,1500,00 + 10%')
+# print('reajuste salario = ate 1500,00 + 5%')
+# if salario <= 280:
+#    percentual = 20
+# elif salario <= 700:
+#    percentual =15
+# elif salario <=1500:
+#    percentual =10
+# elif salario > 1500:
+#    percentual =5
+
+# valor_aumentado =  salario * percentual/100
+# novo_salario = salario+valor_aumentado
+# print(f'ola {colaborador} seu salario foi ajustado de {salario} foi ajustado para um aumento de  {valor_aumentado} e valor total agora é {novo_salario}  ')
+
+
+
+
+
+
+
+# print('Notas Disponiveis de 1,5,10,50,100 ')
+# print('valor MInino de 10 reais e no maximo 600')
+# saque = int(input('Digite O valor que Deseja sacar'))
+
+# if saque < 10 or saque > 600:
+#     print('Valor da maquina Invalido, valor deve ser acima de (10) reais é Abaixo de (600)')
+# else:
+#     notas_100 = saque // 100
+#     saque = saque % 100
+    
+#     notas_20= saque // 20
+#     saque = saque%100
+#     print(f' para sacar a quantia de {saque} reais o programa fornece:')
+#     if notas_100 > 0:
+#         print(f'{notas_100} nota(s) de 100 reais')
+#     if notas_20 > 0:
+#         print(f'{notas_20} notas(a) de 10 reais ')
+
+
+
+
+
+
+
+numero = int(input('Digite Um Numero Menor que 1000 (Mil)'))
+if numero >= 1000:
+    print('Valor Invalido por favor tente um Numero Menor que 1000')
+else:
+    unidades = numero %1
+    
+    casa_das_dezenas = (numero % 10) // 10
+     
+    casa_dos_100 = numero // 100    
+resultado = ''
+if casa_dos_100 >0:
+    if casa_dos_100 == 1:
+        resultado += f'{casa_dos_100}centenas'

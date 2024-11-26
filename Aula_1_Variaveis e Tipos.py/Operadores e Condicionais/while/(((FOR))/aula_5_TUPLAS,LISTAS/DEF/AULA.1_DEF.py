@@ -47,14 +47,17 @@
 # print(F'Hoje  Temperatura esta {num1}C°,{temp}')
 
 
+# def filtrar_emails(Email: list):
+#     filtrados = []  
+#     for i in Email:
+#         if '@gmail.com' in i:
+#             filtrados.append(i)  
+#     return filtrados  
 
-def filtrar_emails(filtrar:str):
-    new_var = '@gmail.com' in filtrar
-    return
 
-lista_emails= ['teste@gmail.com',
-                'info@yahoo.com',
-                'contato@gmail.com']
+# lista_emails = ['teste@gmail.com', 'info@yahoo.com', 'contato@gmail.com']
 
-filtrados = filtrar_emails(lista_emails)
-print(filtrados)
+# filtradoss = filtrar_emails(lista_emails)
+# print(filtradoss)
+
+print('ola')
